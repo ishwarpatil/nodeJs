@@ -1,0 +1,10 @@
+/*app.get('/delete',(req,res) => {
+    var id = req.query.id;
+    var d = {_id : id};
+    dept.deleteOne(d).then((result) => {
+        console.log("1 deleted record...");
+        res.redirect('/display');
+    }, (err) => {
+        console.log(err);
+    });
+});*/
